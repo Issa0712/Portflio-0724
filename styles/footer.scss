@@ -1,0 +1,40 @@
+.footer {
+    background-color: $slate;
+    color: white;
+    padding:120px 8vw;
+    font-size: 20px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 60%;
+        @media (min-width: 767px) {
+            flex-direction: row;
+
+        }
+
+
+    }
+
+    &__menu {
+        list-style: none;
+        &-item:hover {
+            opacity: .7;
+        }
+    }
+
+    &__social-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__copy-right {
+        margin-top: 20px;
+    }
+
+    a:hover {
+        opacity: .7;
+    }
+}
+

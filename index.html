@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <h2 class="u-hidden-visually">
+            Header
+        </h2>
+		<div class="container">
+			<h2 class="header__logo" tabindex="0">
+                <span>Portfolio</span>
+            </h2>
+			<nav class="header__nav">
+            <h2 class="u-hidden-visually">
+                Website Navigation
+            </h2>    
+                <ul class="header__menu">
+               
+                    <li class="header__menu-item">
+                        <a href="#about">About</a>
+                    </li>
+        
+                    <li class="header__menu-item">
+                        <a href="#services">Services</a>
+                    </li>
+
+                    <li class="header__menu-item">
+                        <a href="#personal__projects">Projects</a>
+                    </li>
+
+                    <li class="header__menu-item">
+                        <a href="#work__experience">Work experience</a>
+                    </li>
+                </ul>
+			</nav>
+            <button class="header__btn">
+                <a href="/files/I_Mohamed_CV_July_2024.docx.pdf" download>Download CV</a>
+            </button>
+
+			<button class="hamburger" aria-label="hamburger-menu" aria-expanded="false">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+
+
+    <!-- Mobile nav -->
+	<nav class="mobile-nav">
+        <h2 class="u-hidden-visually">
+            Mobile nav
+        </h2>
+        <img src="images/network-2.jpg" alt="mobile nav image">
+        <ul class="header__menu">
+
+            <li class="header__menu-item">
+                <a href="#about">About</a>
+            </li>
+
+            <li class="header__menu-item">
+                <a href="#services">Services</a>
+            </li>
+
+            <li class="header__menu-item">
+                <a href="#personal__projects">Projects</a>
+            </li>
+
+            <li class="header__menu-item">
+                <a href="#work__experience">Work experience</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="/files/I_Mohamed_CV_July_2024.docx.pdf" download>Download CV</a>
+            </li>
+        </ul>
+	</nav>
+
+
+<!-- //MASTHEAD(HERO) -->
+
+    <section class="masthead" id="home">
+        <h2 class="u-hidden-visually">
+            Masthead
+        </h2>
+
+        <video class="masthead__video"src="vide2.mp4" loop autoplay muted  controls"></video>
+
+       <h2 class="masthead__title">Hello, My name is Issa<span></span></h2>
+       <button class="masthead__video-control" aria-pressed="false" aria-label="Pause Video">
+            <i class="state-icon fas fa-pause" aria-hidden="true"></i>
+       </button>
+
+       <div class="masthead__contact">
+            <a href="https://github.com/Issa0712/" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/issa-mohamed-64a80377/" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+       </div> 
+    </section>
+
+
+     <!--About section-->
+     <section id="about" class="about">
+        <h2 class="u-hidden-visually">
+            About
+        </h2>
+        <div class="about-left" aria-label="about left side content">
+            <h2 class="title">Nice To Meet You</h2>
+            <div class="about__profile-img" aria-label="image_small_screen" aria-hidden="true">
+                <img src="images/profile_img.jpg" alt="profile_img" loading="lazy">
+            </div>
+            <p class="about__content">I’m Issa, a passionate and dedicated Front-End Developer with over two years of hands-on experience crafting dynamic, user-centric web experiences. 
+                My journey into web development began with a deep-seated curiosity for technology and a drive to
+                transform creative ideas into engaging digital solutions. What motivates me every day is the opportunity to build websites and applications that not only meet but exceed user expectations,
+                creating seamless, intuitive experiences.    
+                As a Front-End Developer, I specialise in transforming designs into interactive, high-performa
+            </p>
+         </div>
+
+        <div class="about-right" aria-label="about right side content" aria-hidden="true">
+            <div class="img_container">
+                <img src="images/profile_img.jpg" alt="profile_img">
+            </div>  
+           
+        </div>
+      
+   </section>
+
+   <section class="skills">
+    <h2 class="u-hidden-visually">
+        Skills
+    </h2>
+    <div class="logos">
+        <div class="logos-slide">
+          <img src="./logos/html-1.svg" aria-hidden="true"/>
+          <img src="./logos/css-3.svg" aria-hidden="true" />
+          <img src="./logos/sass-1.svg" aria-hidden="true" />
+          <img src="./logos/javascript-1.svg" aria-hidden="true" />
+          <img src="./logos/react-2.svg" aria-hidden="true" />
+          <img src="./logos/nodejs-3.svg" aria-hidden="true" />
+          <img src="./logos/gulp-1.svg" aria-hidden="true" />
+          <img src="./logos/webpack-icon.svg" aria-hidden="true" />
+          <img src="./logos/wordpress-icon-1.svg" aria-hidden="true" />
+          <img src="./logos/adobe-experience-manager.svg" aria-hidden="true" />
+          <img src="./logos/adobe-photoshop-2.svg" aria-hidden="true" />
+        </div>
+  
+        <div class="logos-slide">
+            <img src="./logos/html-1.svg" />
+            <img src="./logos/css-3.svg" />
+            <img src="./logos/sass-1.svg" />
+            <img src="./logos/javascript-1.svg" />
+            <img src="./logos/react-2.svg" />
+            <img src="./logos/nodejs-3.svg" />
+            <img src="./logos/gulp-1.svg" />
+            <img src="./logos/webpack-icon.svg" />
+            <img src="./logos/wordpress-icon-1.svg" />
+            <img src="./logos/adobe-experience-manager.svg" />
+            <img src="./logos/adobe-photoshop-2.svg" />
+        </div>
+      </div>
+   </section>
+
+   <section class="services">
+    <h2 id="services" class="title">Services</h2>
+        <div class="services__container">
+            <div class="services__card">
+                <a href="#"></a>
+                <i class="fa-solid fa-code" aria-hidden="true"></i>               
+                 <h3>UX design</h3>
+                 <p>Crafting intuitive and user-friendly designs that enhance user satisfaction by making digital interactions seamless, efficient, and enjoyable.</p>
+            </div>
+
+            <div class="services__card">
+                <a href="#" aria-hidden="true"></a>
+                <i class="fa-solid fa-mobile" aria-hidden="true"></i>               
+                 <h3>Responsive web-design</h3>
+                 <p>Crafting responsive and engaging websites with a mobile-first approach to ensure seamless user experiences across all devices, in order to stay ahead in the digital landscape.</p>
+            </div>
+
+            <div class="services__card">
+                <a href="#" aria-hidden="true"></a>
+                <i class="fas fa-palette" aria-hidden="true"></i>               
+                 <h3>BEM Methodology</h3>
+                 <p>Utilizing BEM (Block, Element, Modifier) for clean, maintainable, and scalable CSS code—ensuring consistency and efficiency in web development.</p>
+            </div>
+
+            <div class="services__card">
+                <a href="#" aria-hidden="true"></a>
+                <i class="fas fa-universal-access" aria-hidden="true"></i>               
+                 <h3>Accesability</h3>
+                 <p>Designing inclusive websites that are accessible to everyone, ensuring equal access and usability for all users, regardless of ability.</p>
+            </div>
+
+            <div class="services__card">
+                <a href="#" aria-hidden="true"></a>
+                <i class="fa-solid fa-code" aria-hidden="true"></i>               
+                 <h3>Git</h3>
+                 <p>Expert in Git version control—efficiently managing code, collaborating on projects, and maintaining project history with best practices.</p>
+            </div>
+
+            <div class="services__card">
+                <a href="#" aria-hidden="true"></a>
+                <i class="fa-solid fa-code" aria-hidden="true"></i>               
+                 <h3>Deployment</h3>
+                 <p>Specializing in deploying and managing applications on Heroku, a cloud platform that makes it easy to build, run, and scale applications.</p>
+            </div>
+            
+        </div>
+   </section>
+
+    <!-- Work experience -->
+   <section id="work__experience" class="work__experience">
+    <h2 class="title">Work experience</h2>
+    <div class="timeline-container">
+        <div class="timeline">
+          <div class="line"></div>
+          <div class="section">
+            <div class="bead"></div>
+            <div class="content">
+              <h4>Feb 2023 - Present</h4>
+              <h2>Substrakt</h2>
+              <h3>Front-end developer</h3>
+              <i class="fas fa-map-marker-alt">
+                <h5 class="location">Birmingham</h4>
+              </i>
+              <p>During my time at Substrakt we partnered with cultural organisations around the world to create meaningful digital experiences.</p>
+              <h5>projects worked on</h5>
+              <div class="timeline__projects">
+                <ul class="timeline__list">
+                    <li class="timeline__list-item">
+                        <a href="https://londontheatrecompany.co.uk/" target="_blank">London Theatre Company</a>
+                    </li>
+
+                    <li class="timeline__list-item">
+                        <a href="https://www.mayflower.org.uk/" target="_blank">Mayflower Theatre</a>
+                    </li>
+
+                    <li class="timeline__list-item">
+                        <a href="https://www.rcs.ac.uk/" target="_blank">Royal Conservatoire of Scotland</a>
+                    </li>
+
+                    <li class="timeline__list-item">
+                        <a href="https://www.comptonverney.org.uk/" target="_blank">Compton Verney, Warwickshire</a>
+                    </li>
+                    
+                    <li class="timeline__list-item">
+                        <a href="https://www.storyhouse.com/" target="_blank">Storyhouse, Chester</a>
+                    </li>
+
+                    <li class="timeline__list-item">
+                        <a href="https://garsingtonopera.org/" target="_blank">Garsington Opera, Oxford</a>
+                    </li>
+
+                    <li class="timeline__list-item">
+                        <a href="https://santafechambermusic.com/" target="_blank">Santa Fe Chamber Music Festival</a>
+                    </li>
+                </ul>
+             </div>
+            </div>
+          </div>
+    
+          <div class="section">
+            <div class="bead"></div>
+            <div class="content">
+              <h4>Feb 2002 - Feb 2023</h4>
+              <h2>Boots</h2>
+              <h3>Front-end developer</h3>
+              <i class="fas fa-map-marker-alt aria-hidden="true"">
+                <h5 class="location">Nottingham</h4>
+              </i>
+              <p>have been involved in many interesting projects and events which has driven the business to recent success. Working alongside stakeholders, designers and copywriters I have been able to create and work on numerous front-end assets for events such as:</p>
+              <ul class="timeline__list">
+                <li class="timeline__list-item">
+                  Love Island
+                 </li>
+                 <li class="timeline__list-item">
+                   Valentines day
+                 </li>
+                <li class="timeline__list-item">
+                   Mothers Day
+                </li>
+                <li class="timeline__list-item">
+                   Fathers Day
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+     <!-- personal__projects -->
+   <section id="personal__projects" class="personal__projects">
+        <h2 class="title">Personal Projects</h2>
+        <div class="services__container">
+            <div class="personal__projects-card">
+               <a href="https://issa0712.github.io/covid19tracker/" target="_blank" class="personal__projects-link"></a>
+                <div class="personal__projects-image">
+                    <img src="images/Covid-19.png" alt="Covid 19 tracker">
+                </div>
+                <div class="personal__projects-content">
+                    <h3>COVID-19 Tracker</h3>
+                    <div class="skills">
+                        <P>React</P>
+                        <div class="w3-light-grey w3-round">
+                            <div class="bar w3-container w3-round w3-blue" style="width:65%">65%</div>
+                        </div>
+                        <P>CSS</P>
+                        <div class="bar w3-light-grey w3-round">
+                            <div class="w3-container w3-round w3-green" style="width:25%">25%</div>
+                        </div>
+                        <P>HTML</P>
+                        <div class="bar w3-light-grey w3-round">
+                            <div class="w3-container w3-round w3-red" style="width:10%">10%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="personal__projects-card">
+                <a href="https://node-weather-webserver-2c22.onrender.com/" target="_blank" class="personal__projects-link"></a>
+                 <div class="personal__projects-image">
+                     <img src="images/weather-app.png" alt="weather app">
+                 </div>
+                 <div class="personal__projects-content">
+                     <h3>Weather App</h3>
+                     <div class="skills">
+                         <P>Node.JS</P>
+                         <div class="w3-light-grey w3-round">
+                             <div class="bar w3-container w3-round w3-blue" style="width:65%">38%</div>
+                         </div>
+                         <P>CSS</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-green" style="width:25%">45%</div>
+                         </div>
+                         <P>Handlebars</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-red" style="width:10%">10%</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+            <div class="personal__projects-card">
+                <a href=https://issa0712.github.io/hangman/" target="_blank" class="personal__projects-link"></a>
+                 <div class="personal__projects-image">
+                     <img src="images/hangman.png" alt="">
+                 </div>
+                 <div class="personal__projects-content">
+                     <h3>Hangman</h3>
+                     <div class="skills">
+                         <P>Javacript</P>
+                         <div class="w3-light-grey w3-round">
+                             <div class="bar w3-container w3-round w3-blue" style="width:70%">70%</div>
+                         </div>
+                         <P>CSS</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-green" style="width:20%">20%</div>
+                         </div>
+                         <P>HTML</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-red" style="width:10%">10%</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="personal__projects-card">
+                <a href="https://issa0712.github.io/recipeApp/" target="_blank" class="personal__projects-link"></a>
+                 <div class="personal__projects-image">
+                     <img src="images/recipe.png" alt="recipe app">
+                 </div>
+                 <div class="personal__projects-content">
+                     <h3>Recipe App</h3>
+                     <div class="skills">
+                         <P>Javacript</P>
+                         <div class="w3-light-grey w3-round">
+                             <div class="bar w3-container w3-round w3-blue" style="width:53%">53%</div>
+                         </div>
+                         <P>SCSS</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-green" style="width:33%">33%</div>
+                         </div>
+                         <P>HTML</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-red" style="width:14%">14%</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="personal__projects-card">
+                <a href="" class="personal__projects-link"></a>
+                 <div class="personal__projects-image">
+                     <img src="images/volkswagen.png" alt=Volkswagen"">
+                 </div>
+                 <div class="personal__projects-content">
+                     <h3>VW</h3>
+                     <div class="skills">
+                         <P>HTML</P>
+                         <div class="w3-light-grey w3-round">
+                             <div class="bar w3-container w3-round w3-blue" style="width:51%">51%</div>
+                         </div>
+                         <P>CSS</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-green" style="width:39%">39%</div>
+                         </div>
+                         <P>Javacript</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-red" style="width:10%">10%</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+             <div class="personal__projects-card">
+                <a href="" class="personal__projects-link"></a>
+                 <div class="personal__projects-image">
+                     <img src="images/Burger_delight.png" alt="Burger delight image">
+                 </div>
+                 <div class="personal__projects-content">
+                     <h3>Burger Delight</h3>
+                     <div class="skills">
+                         <P>HTML</P>
+                         <div class="w3-light-grey w3-round">
+                             <div class="bar w3-container w3-round w3-blue" style="width:57%">57%</div>
+                         </div>
+                         <P>CSS</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-green" style="width:25%">33%</div>
+                         </div>
+                         <P>Javacript</P>
+                         <div class="bar w3-light-grey w3-round">
+                             <div class="w3-container w3-round w3-red" style="width:10%">10%</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+        </div>
+   </section>
+
+   <section class="footer">
+        <h2 class="u-hidden-visually">
+            Footer
+        </h2>
+        <div class="footer__container">
+            <ul class="footer__menu">
+                <li class="footer__menu-item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#services">
+                    Services
+                    </a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#personal__projects">
+                      Projects      
+                    </a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#work__experience">
+                    Work experience
+                    </a>
+                </li>
+            </ul>
+            <p>
+                 <a href="#home">
+                    Back to top
+                </a>  
+            </p>
+            <div class="footer__social-icons">
+                <a href="https://github.com/Issa0712/" target="_blank">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/issa-mohamed-64a80377/" target="_blank">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <p class="footer__copy-right">Copyright © 2024 Created By Issa Mohamed</p>
+
+   </section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.title {
+  position: relative;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.title::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: #b708f7;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.title::after {
+  content: "";
+  height: 4px;
+  width: 20px;
+  background-color: #b708f7;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+}
+
+.u-hidden-visually {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=settings.css.map */
