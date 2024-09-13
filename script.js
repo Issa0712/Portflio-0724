@@ -1,3 +1,11 @@
+const HTML = document.querySelector('html');
+let menu_btn = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+let menu_item = document.querySelectorAll('.mobile-nav .header__menu-item');
+let hamburger = document.querySelector('.hamburger');
+
+
+
 window.onload = function () {
 	window.addEventListener('scroll', function (e) {
 		if (window.pageYOffset > 100) {
@@ -7,9 +15,6 @@ window.onload = function () {
 		}
 	});
 
-    const HTML = document.querySelector('html');
-	let menu_btn = document.querySelector('.hamburger');
-	const mobile_menu = document.querySelector('.mobile-nav');
 
 	menu_btn.addEventListener('click', function () {
         HTML.classList.toggle('state--nav-open');
@@ -45,6 +50,17 @@ window.onload = function () {
     typingTxtEffect(mastheadTitle, titleText);
 }
 
+
+//Mobile nav close the menu if link is clicked
+
+
+menu_item.forEach((link) => {
+    link.addEventListener('click', () => {
+     HTML.classList.remove('state--nav-open');
+     hamburger.classList.remove('is-active');
+     mobile_menu.classList.remove('is-active');
+    })
+ })
 
  // Masthead
 
@@ -89,14 +105,6 @@ window.onload = function () {
  if(isReducedMotion) {
     pauseVideo();
 }
-
-
-//duplicate logos on the slider for smooth transition 
-// let logosSlide = document.querySelector('.logos-slide')
-// let clone = logosSlide.cloneNode(true)
-// let logos = document.querySelector('.logos')
-// logos.appendChild(clone)
-
 
 
 //timeline

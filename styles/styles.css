@@ -375,6 +375,9 @@ a {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+.header.is-scrolling .header__logo, .header.is-scrolling .hamburger .bar {
+  color: white !important;
+}
 .header a:hover {
   opacity: 0.7;
 }
@@ -385,6 +388,9 @@ html.state--nav-open .header .container .header__logo {
 }
 html.state--nav-open .hamburger .bar, html.state--nav-open .hamburger:after, html.state--nav-open .hamburger:before {
   background-color: #000;
+}
+html.state--nav-open .header.is-scrolling .hamburger .bar, html.state--nav-open .header.is-scrolling .hamburger:after, html.state--nav-open .header.is-scrolling .hamburger:before {
+  background-color: white;
 }
 
 .hamburger {

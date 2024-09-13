@@ -102,7 +102,6 @@
 	left: 0;
 	width: 100%;
 	z-index: 99;
-	// background-color: #12002F;
 
 	.container {
 		padding-top: 32px;
@@ -167,6 +166,10 @@
 			padding-top: 16px;
 			padding-bottom: 16px;
 		}
+
+		.header__logo, .hamburger .bar {
+			color: white !important;
+		}
 	}
 
     a:hover {
@@ -182,10 +185,20 @@ html.state--nav-open {
     }
 
     .hamburger .bar, .hamburger:after, .hamburger:before {
-        background-color: #000;;
+        background-color: #000;
     
     }
+
+	.header.is-scrolling {
+		.hamburger .bar, .hamburger:after, .hamburger:before {
+			background-color: white;
+		}
+	}
+
+
     
 }
+
+
 
 
