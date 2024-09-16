@@ -8,7 +8,7 @@ let hamburger = document.querySelector('.hamburger');
 
 window.onload = function () {
 	window.addEventListener('scroll', function (e) {
-		if (window.pageYOffset > 100) {
+		if (window.scrollY > 100) {
 			document.querySelector("header").classList.add('is-scrolling');
 		} else {
 			document.querySelector("header").classList.remove('is-scrolling');
@@ -42,7 +42,7 @@ window.onload = function () {
             return;
         }
 
-        setTimeout(() =>  typingTxtEffect(mastheadTitle, titleText, i + 1), 50 )
+        setTimeout(() =>  typingTxtEffect(mastheadTitle, titleText, i + 1), 70 )
 
 
     }
